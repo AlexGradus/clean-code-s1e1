@@ -37,19 +37,19 @@
 .section__input{
   display: flex;
 }
-ul {
+.section_outside_position {
   margin: 0;
   padding: 0px;
 }
-li,
-h3 {
+.section_additional_options,
+.section_title_size {
   list-style: none;
 }
-input,
+.section_outline_input,  
 button{
   outline: none;
 }
-button {
+.section_button_parametres {
   background: none;
   border: 0px;
   color: #888;
@@ -58,11 +58,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.section_button_parametres:hover {
   color: #3a3A3a;
 }
 /* Heading */
-h3 {
+.section_title_size {
   color: #333;
   font-weight: 700;
   font-size: 15px;
